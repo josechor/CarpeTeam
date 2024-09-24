@@ -2,7 +2,7 @@
 import NavHeader from '../Components/NavHeader.vue'
 </script>
 <template>
-  <header>
+  <header class="bg-black">
     <span>CARPETEAM</span>
     <NavHeader />
   </header>
