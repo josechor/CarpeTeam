@@ -6,7 +6,7 @@ export const GamesGeneralInfo: GameGeneralInfo[] = [
     name: 'Smite',
     description:
       'Este item contendra una descripción del juego el cual aún no he pensado y no se que poner',
-    image: 'https://via.placeholder.com/150'
+    image: 'SmiteLogo.png'
   },
   {
     id: '2',

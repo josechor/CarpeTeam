@@ -17,12 +17,12 @@ import GameCard from './GameCard.vue'
 .background-gradient {
   background: linear-gradient(
     to top,
-    #000000 20%,
-    rgba(0, 0, 0) 60%,
-    rgba(0, 0, 0, 05) 70%,
-    rgba(0, 0, 0.7) 80%,
-    rgba(0, 0, 0, 20%) 90%,
-    rgba(0, 0, 0, 0)
+    #121212 20%,
+    #121212 60%,
+    #12121280 70%,
+    #12121250 80%,
+    #12121230 90%,
+    transparent 100%
   );
 }
 </style>
