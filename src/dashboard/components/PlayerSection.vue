@@ -3,7 +3,11 @@ import { Players } from '../constants/Players'
 import PlayerCard from './PlayerCard.vue'
 </script>
 <template>
-  <section class="bg-background-100 grid grid-cols-3 w-full justify-items-center pb-12">
+  <section
+    class="player-section grid grid-cols-3 w-full bg-background-200 justify-items-center p-12 pt-80"
+  >
     <PlayerCard v-for="player in Players" :key="player.id" :player="player" />
   </section>
 </template>
+
+<style scoped></style>

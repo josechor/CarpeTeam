@@ -6,4 +6,6 @@ export interface Player {
   club: string
   description: string
   image: string
+  nickname: string
+  nacionality: string
 }
