@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { GamesGeneralInfo } from '../constants/Games'
+import { GamesGeneralInfo } from '@/shared/constants/Games';
 import GameCard from './GameCard.vue'
 </script>
 <template>

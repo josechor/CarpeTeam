@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Players } from '../constants/Players'
+import { Players } from '@/shared/constants/Players';
 import PlayerCard from './PlayerCard.vue'
 </script>
 <template>

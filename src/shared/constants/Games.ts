@@ -1,4 +1,4 @@
-import type { GameGeneralInfo } from '../types/GamesTypes'
+import type { GameGeneralInfo } from "@/dashboard/types/GamesTypes";
 
 export const GamesGeneralInfo: GameGeneralInfo[] = [
   {

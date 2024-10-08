@@ -1,4 +1,4 @@
-import type { Player } from '../types/PlayersTypes'
+import type { Player } from "@/dashboard/types/PlayersTypes";
 
 export const Players: Player[] = [
   {
