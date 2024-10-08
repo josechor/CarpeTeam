@@ -14,7 +14,7 @@ const router = createRouter({
       component: Dashboard
     },
     {
-      path: '/counter',
+      path: '/counter-strike',
       name: 'counter',
       component: Counter
     },

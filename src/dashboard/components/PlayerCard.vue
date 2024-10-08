@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
 import type { Player } from '../types/PlayersTypes'
+import router from '@/router';
 
 defineProps({
   player: {
@@ -11,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col w-[300px] bg-background-100 p-5 rounded-2xl">
+  <div class="flex flex-col w-[300px] bg-background-100 p-5 rounded-2xl cursor-pointer" @click="router.push('/player/' + player.name)">
     <header class="flex flex-row items-center justify-between relative">
       <div class="absolute header-decoration">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" alt="">

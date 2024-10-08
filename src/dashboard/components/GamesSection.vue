@@ -8,9 +8,7 @@ import GameCard from './GameCard.vue'
   >
     <GameCard
       v-for="game in GamesGeneralInfo"
-      :name="game.name"
-      :description="game.description"
-      :image="game.image"
+      :game="game"
     />
   </section>
 </template>

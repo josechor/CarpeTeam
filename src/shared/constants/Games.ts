@@ -6,20 +6,23 @@ export const GamesGeneralInfo: GameGeneralInfo[] = [
     name: 'Smite',
     description:
       'Este item contendra una descripción del juego el cual aún no he pensado y no se que poner',
-    image: 'SmiteLogo.png'
+    image: 'SmiteLogo.png',
+    page: 'smite'
   },
   {
     id: '2',
     name: 'Minecraft',
     description:
       'Este item contendra una descripción del juego el cual aún no he pensado y no se que poner',
-    image: 'https://via.placeholder.com/150'
+    image: 'https://via.placeholder.com/150',
+    page: 'minecraft'
   },
   {
     id: '3',
     name: 'Counter-Strike 2',
     description:
       'Este item contendra una descripción del juego el cual aún no he pensado y no se que poner',
-    image: 'https://via.placeholder.com/150'
+    image: 'https://via.placeholder.com/150',
+    page: 'counter-strike'
   }
 ]
