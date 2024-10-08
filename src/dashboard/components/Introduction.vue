@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 <template>
   <section class="flex flex-col items-center justify-center gap-12 introduction-section">
-    <div class="flex items-center justify-center flex-col py-12 text-9xl font-extrabold title">
+  <div class="flex items-center justify-center flex-col py-12 text-9xl font-extrabold title">
       <span>CARPE</span>
       <span>TEAM</span>
     </div>
